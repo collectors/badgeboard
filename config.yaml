@@ -17,7 +17,8 @@ projects:
  - collector-json
  - s3-buffer-stream
  - segment-webhook
- - node-influxdb-udp
+ - name: influxdb-udp
+   repo: collectors/node-influxdb-udp
  - name: collector-influxdb
    repo: collectors/influxdb
  - name: collector-mongodb
